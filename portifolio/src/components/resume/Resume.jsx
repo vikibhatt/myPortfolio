@@ -59,13 +59,25 @@ const Resume = () => {
 
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Advanced App/cloud Engineering and support Associate
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Accenture Solutions Pvt. Ltd.
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Nov 2024 - Present
+                </span>
+              </div>
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Graduate DevOps Engineer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   Navisite India Pvt. Ltd.
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2024 - Present
+                  June 2024 - Oct 2024
                 </span>
               </div>
 

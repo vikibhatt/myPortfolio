@@ -12,7 +12,6 @@ import {
   SiExpress,
   SiPuppet,
   SiCheckmk,
-  SiMicrosoftazure
 } from "react-icons/si";
 import { FaJava, FaAws } from 'react-icons/fa'; 
 import { GrCode } from "react-icons/gr";
@@ -49,7 +48,6 @@ const Skills = ({ darkMode }) => {
               <ProgressBar logo={<SiPuppet />} name={"Puppet"} value={78} />
               <ProgressBar logo={<SiCheckmk />} name={"CheckMk"} value={82} />
               <ProgressBar logo={<FaAws />} name={"AWS"} value={85} />
-              <ProgressBar logo={<SiMicrosoftazure />} name={"Azure"} value={85} />
                 <ProgressBar logo={<FaJava />} name={"JAVA"} value={80} />
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={85} />
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={85} />
@@ -107,15 +105,6 @@ const Skills = ({ darkMode }) => {
                 black={"black"}
                 white={"white"}
                 skill={"AWS"}
-              />
-              <SkillBox
-                className=""
-                logo={
-                  <SiMicrosoftazure/>
-                }
-                black={"black"}
-                white={"white"}
-                skill={"Azure"}
               />
             </div>
           </div>
